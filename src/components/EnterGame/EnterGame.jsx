@@ -35,7 +35,7 @@ function EnterGame({ className }) {
 
     return (
         <div className={spbw(cls.enter_game, className)}>
-            <form action="webjam/game" method="get">
+            <form action="game" method="get">
                 <Dropdown className={cls.form_item} optionList={Object.entries(gameConfig.regionNames)} name="region" />
                 <fieldset hidden={!expOpened} className={spbw('fieldset', cls.form_item)}>
                     <legend className="fieldset-legend">Experiments</legend>
