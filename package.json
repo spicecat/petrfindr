@@ -1,5 +1,5 @@
 {
-  "homepage": "https://spicecat.github.io/geoguessr-clone",
+  "homepage": "https://spicecat.github.io/webjam",
   "name": "geoguessr-clone",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && shx cp build/index.html build/404.html",
     "test": "react-scripts test",
