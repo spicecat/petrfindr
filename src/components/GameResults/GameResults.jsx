@@ -105,7 +105,7 @@ function GameResults({ className, map, data }) {
                         </div>
                     </div>
                     <p className={cls.home_link}>
-                        <a href="/">Home</a>
+                        <a href="/webjam">Home</a>
                     </p>
                 </div>
             </div>

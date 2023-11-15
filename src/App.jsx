@@ -8,7 +8,7 @@ function App() {
 
     return (
         <div className={acDEekrstu}>
-            <BrowserRouter basename=''>
+            <BrowserRouter basename='/webjam'>
                 <Routes>
                     {routes.map(route => <Route key={route.path} path={route.path} element={route.element()} />)}
                 </Routes>

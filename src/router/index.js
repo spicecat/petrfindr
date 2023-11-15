@@ -4,6 +4,6 @@ import Game from "../pages/Game/Game";
 
 export const routes = [
     {path: '/', element: () => <Home />},
-    {path: '/stats', element: () => <Stats />},
-    {path: '/game', element: () => <Game />}
+    {path: 'stats', element: () => <Stats />},
+    {path: 'game', element: () => <Game />}
 ];
