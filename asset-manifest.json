@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/webjam/static/css/main.7e18f376.css",
-    "main.js": "/webjam/static/js/main.e792095a.js",
+    "main.js": "/webjam/static/js/main.97dc6c6e.js",
     "static/media/original.svg": "/webjam/static/media/original.dd3c3286e6d14f72653800dbdf5340a0.svg",
     "index.html": "/webjam/index.html",
     "main.7e18f376.css.map": "/webjam/static/css/main.7e18f376.css.map",
-    "main.e792095a.js.map": "/webjam/static/js/main.e792095a.js.map"
+    "main.97dc6c6e.js.map": "/webjam/static/js/main.97dc6c6e.js.map"
   },
   "entrypoints": [
     "static/css/main.7e18f376.css",
-    "static/js/main.e792095a.js"
+    "static/js/main.97dc6c6e.js"
   ]
 }
