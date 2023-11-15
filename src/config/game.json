@@ -11,7 +11,8 @@
     "eur": "Europe",
     "asi": "Asia",
     "afr": "Africa",
-    "oce": "Oceania"
+    "oce": "Oceania",
+    "uci": "UCI"
   },
   "minimapPatterns": [
     {
