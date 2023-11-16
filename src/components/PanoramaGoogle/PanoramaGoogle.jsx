@@ -1,4 +1,4 @@
-import {Wrapper} from '@googlemaps/react-wrapper';
+import { Wrapper } from '@googlemaps/react-wrapper';
 import PropTypes from 'prop-types';
 
 import Map from '../UI/Map/Map';
@@ -34,7 +34,7 @@ function PanoramaGoogle({ className, getParams, utils, realPos }) {
                         if (n <= 0) return;
                         svSvc.getPanorama({
                             location: arrToLLObj(genRandomCoords(getParams.region)),
-                            radius: 10000
+                            radius: 1.78**(16-n)
                         }).then(({ data }) => {
                             const loc = data.location;
                             if (!data.links.length) return getRandomLocation(n);
@@ -42,6 +42,7 @@ function PanoramaGoogle({ className, getParams, utils, realPos }) {
                             pano.setPano(loc.pano);
                             setZoom(pano, 0);
                             utils.timer.itvId = setInterval(() => utils.timer.nextSec(), 1000);
+                            console.log(Math.random(), loc, realPos.current, n)
                         }).catch((e => e.code === 'ZERO_RESULTS' && getRandomLocation(n - 1)));
                     }
                     getRandomLocation(10);

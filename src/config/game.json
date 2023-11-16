@@ -12,7 +12,8 @@
     "asi": "Asia",
     "afr": "Africa",
     "oce": "Oceania",
-    "uci": "UCI"
+    "uci": "UCI",
+    "rro": "Ring Road"
   },
   "minimapPatterns": [
     {
