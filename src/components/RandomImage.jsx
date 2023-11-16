@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Button } from '@mui/material';
+import { useState } from 'react';
+import { Button, Paper } from '@mui/material';
 
 
 const RandomImage = () => {
@@ -13,12 +13,13 @@ const RandomImage = () => {
     };
 
     return (
-        <div>
+        <Paper elevation={3}>
             <Button onClick={handleButtonClick}>
                 Display Random Image
             </Button>
-            {image && <img src={image} alt="Random Image" />}
-        </div>
+            <br />
+            {image && <img src={image} alt="Random" style={{ height: '400px' }} />}
+        </Paper>
     );
 };
 

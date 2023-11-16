@@ -8,7 +8,6 @@ const theme = createTheme({
     typography: {
         fontFamily: [
             'Indie Flower',
-            'Arial',
             'cursive',
         ].join(','),
     },
@@ -17,18 +16,20 @@ const theme = createTheme({
 const Home = () => {
     return (
         <ThemeProvider theme={theme}>
-
             <Typography variant="h1"> PetrGuessr </Typography>
-            <div> description </div>
+            <div> Explore UCI </div>
             <div>
-                <img src={logo} alt="petr" />
+                <img src={logo} alt="petr" style={{ height: '400px' }} />
             </div>
-            <Button variant="contained" style={{ fontSize: '150px', padding: '10px 20px', fontFamily: 'Chilanka, cursive' }}>
-                <Link to='/game'>
+            <Button
+                variant="contained"
+                style={{ fontSize: '70px', padding: '10px 20px', fontFamily: 'Indie Flower, cursive', borderRadius: '10px' }}
+            >
+                <Link to='/game' style={{ color: 'yellow', textDecoration: 'None' }}>
                     Start
                 </Link>
             </Button>
-        </ThemeProvider>
+        </ThemeProvider >
     );
 };
 
