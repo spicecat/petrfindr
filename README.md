@@ -1,26 +1,70 @@
-# GeoGuessr Clone
-Original game: https://www.geoguessr.com/ <br>
-Clone: https://geoguessr-clone.github.io/
+# Getting Started with Create React App
 
-## About
-This is a clone of GeoGuessr, a popular geography game, where you need to guess the StreetView location. Initially,
-this clone was written on Vanilla JS and jQuery with Gulp ([GitHub repo](https://github.com/anonymouspenguin000/Geoguessr-clone-old)).
-But in a year I decided to rewrite it on React, so here it is. I also have some ideas to implement to make the clone
-better.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Disclaimer
-I'm not a pirate. I didn't hack any sources. I don't cooperate with pirates or somebody else who's bad... I just took an
-idea for my own and others' education/experience making web-apps and working with APIs. I don't monetize this project. I
-encourage you to use the original.
+## Available Scripts
 
-## Wanna run it yourself?
-Firstly, clone the repo to your computer and install the dependencies (`npm install`), but don't run yet. Create your Google
-Cloud API Key and enable the Maps JavaScript API. It's free (with limits), you can find a lot of tutorials on the
-internet. Go to your project folder, follow the `.env.example` file in the root and create the `.env` file with same
-contents. Copy your API Key and place it after the "=" sign in your `.env` file (don't forget to save). Now you can run
-the project (`npm start`) and open the URL the CLI says (usually it's `localhost:3000`). That's all :)
+In the project directory, you can run:
 
-## Contact
-- E-mail: [anopeng000@gmail.com](mailto:anopeng000@gmail.com)
-- Telegram: [@vl_pnk](https://t.me/vl_pnk)
-- Discord: [AnonymousPenguin#5362](https://discordapp.com/users/911550482709905418)
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
