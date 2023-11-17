@@ -1,24 +1,24 @@
-{
+{   
     "aldrich-park": {
         "coords": {
-            "lat": 33.64600470995814,
-            "lng": -117.84274202606206
+            "lat": 33.64545045673266,
+            "lng": -117.8412691008788
         },
         "name": "Aldrich Park",
         "src": "aldrich-park.jpeg"
     },
     "anteater-recreation-center": {
         "coords": {
-            "lat": 33.643561844535,
-            "lng": -117.82796158581051
+            "lat": 33.6436097746018,
+            "lng": -117.82869453377216
         },
         "name": "Anteater Recreation Center",
         "src": "anteater-recreation-center.jpeg"
     },
     "donald-bren-hall": {
         "coords": {
-            "lat": 33.64322826940976,
-            "lng": -117.84192000232811
+            "lat": 33.64356384080844,
+            "lng": -117.84188477348097
         },
         "name": "Donald Bren Hall",
         "src": "donald-bren-hall.jpeg"
@@ -41,16 +41,16 @@
     },
     "middle-earth-towers": {
         "coords": {
-            "lat": 33.64563289475947,
-            "lng": -117.83902968104468
+            "lat": 33.64523162686426,
+            "lng": -117.83971840591039
         },
         "name": "Middle Earth Towers",
         "src": "middle-earth-towers.jpeg"
     },
     "science-library": {
         "coords": {
-            "lat": 33.6459604178158,
-            "lng": -117.84651978531653
+            "lat": 33.64587267206292,
+            "lng": -117.84580555152785
         },
         "name": "Science Library",
         "src": "science-library.jpeg"

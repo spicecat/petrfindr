@@ -1,6 +1,10 @@
 import { Grid } from '@mui/material';
 
-const Location = ({ location: { src } }) => {
+import { useGame } from '../contexts'
+
+const Location = () => {
+    const { location: { src } } = useGame();
+
     return (
         <Grid
             item

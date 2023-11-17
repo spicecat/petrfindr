@@ -3,40 +3,54 @@ import { Link } from 'react-router-dom';
 import { Button } from "@mui/material";
 
 import logo from '../assets/logo.png';
+import backgroundImage from '../assets/student-center.jpeg';
 
 const theme = createTheme({
     typography: {
         fontFamily: [
-            'Indie Flower',
-            'cursive',
+            'Titan One',
+            'Arial',
         ].join(','),
     },
 });
 
 const Home = () => {
     return (
-        <ThemeProvider theme={theme} margin='0'>
+        <ThemeProvider theme={theme}>
             <Grid
                 container
-                margin={2}
-                minHeight='100vh'
+                margin={0}
+                height='100vh'
                 sx={{
                     alignItems: 'center',
                     display: 'flex',
                     flexDirection: 'column',
                     overflow: 'hidden',
+                    backgroundImage: `url(${backgroundImage})`,
+                    backgroundSize: 'cover', 
+                    backgroundPosition: 'center',
                 }}
             >
-                <Typography variant="h1"> PetrGuessr </Typography>
-                <img src={logo} alt="petr" style={{ height: '50%' }} />
+                <Typography 
+                    variant="h2"
+                    sx={{
+                        margin: '16px',
+                        color: '#FFC436',
+                        border: '4px solid #FFC436', // Add border style here
+                        borderRadius: '10px', // Add border radius if needed
+                        padding: '10px 50px', // Adjust padding as needed
+                        backgroundColor: '#0174BE',
+                      }}
+                    > PetrGuessr </Typography>
+                <img src={logo} alt="petr" style={{ height: '60vh' }} />
                 <br />
                 <Button
                     variant="contained"
-                    style={{ fontSize: '70px', padding: '10px 20px', fontFamily: 'Indie Flower, cursive', borderRadius: '10px' }}
+                    style={{ color: '#FFC436',fontSize: '32px', padding: '12px 128px', fontFamily: 'Titan One', borderRadius: '10px' }}
+                    component={Link}
+                    to='/game'                 
                 >
-                    <Link to='/game' style={{ color: 'yellow', textDecoration: 'None' }}>
-                        Start
-                    </Link>
+                Start
                 </Button>
             </Grid>
         </ThemeProvider >

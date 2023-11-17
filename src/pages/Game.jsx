@@ -1,31 +1,24 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { Grid } from "@mui/material";
+
+import { useGame } from '../contexts'
 import { Location, Minimap, Results } from '../components';
-import { Marker } from 'maplibre-gl';
-import locations from '../config/locations.json';
 
 const Game = () => {
-  const [marker, setMarker] = useState();
-  const [location, setLocation] = useState();
-
-  const randomLocation = () => {
-    const locationKeys = Object.keys(locations);
-    return locations[locationKeys[Math.floor(Math.random() * locationKeys.length)]];
-  }
+  const { createRandomLocation, location, marker } = useGame();
 
   useEffect(() => {
-    setLocation(randomLocation());
-    setMarker(new Marker({ draggable: true }))
+    createRandomLocation();
   }, []);
 
   return (
     <>
-      <Grid item xs={6}>
-        {location && <Location location={location} />}
-        {location && marker && <Results location={location} marker={marker} />}
+      <Grid item xs={6} style={{}}>
+        {location && <Location />}
+        {location && marker && <Results />}
       </Grid>
       <Grid item xs={6} style={{ height: "100%" }}>
-        {marker && <Minimap marker={marker} />}
+        <Minimap />
       </Grid>
     </>
   );

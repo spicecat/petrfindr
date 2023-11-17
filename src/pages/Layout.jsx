@@ -12,7 +12,7 @@ export default function Layout() {
                 <title>PetrGuessr</title>
             </Helmet>
             <main>
-                <Grid container margin={2} height='400px'>
+                <Grid container margin={0} height='400px'>
                     <Outlet />
                 </Grid>
             </main>
