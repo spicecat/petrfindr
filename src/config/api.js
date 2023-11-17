@@ -1,5 +1,5 @@
 const api = {
-    googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY
+    maptilerApiKey: process.env.REACT_APP_MAPTILER_API_KEY
 };
 
 export default api;

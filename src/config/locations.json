@@ -1,0 +1,48 @@
+{
+    "aldrich-park": {
+        "coords": [
+            33.643561844535,
+            -117.82796158581051
+        ],
+        "name": "Aldrich Park"
+    },
+    "anteater-recreation-center": {
+        "coords": [],
+        "name": "Anteater Recreation Center"
+    },
+    "donald-bren-hall": {
+        "coords": [
+            33.64322826940976,
+            -117.84192000232811
+        ],
+        "name": "Anteater Recreation Center"
+    },
+    "founders-court": {
+        "coords": [
+            33.64711169553486,
+            -117.84459258116387
+        ],
+        "name": "Anteater Recreation Center"
+    },
+    "jao-family-sculpture-garden": {
+        "coords": [
+            33.64785243710442,
+            -117.84294187534339
+        ],
+        "name": "Anteater Recreation Center"
+    },
+    "middle-earth-towers": {
+        "coords": [
+            33.64563289475947,
+            -117.83902968104468
+        ],
+        "name": "Anteater Recreation Center"
+    },
+    "science-library": {
+        "coords": [
+            33.6459604178158,
+            -117.84651978531653
+        ],
+        "name": "Anteater Recreation Center"
+    }
+}

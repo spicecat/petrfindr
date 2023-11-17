@@ -1,4 +1,4 @@
-import { createTheme, ThemeProvider, Typography } from "@mui/material";
+import { createTheme, Grid, ThemeProvider, Typography } from "@mui/material";
 import { Link } from 'react-router-dom';
 import { Button } from "@mui/material";
 
@@ -15,20 +15,30 @@ const theme = createTheme({
 
 const Home = () => {
     return (
-        <ThemeProvider theme={theme}>
-            <Typography variant="h1"> PetrGuessr </Typography>
-            <div> Explore UCI </div>
-            <div>
-                <img src={logo} alt="petr" style={{ height: '400px' }} />
-            </div>
-            <Button
-                variant="contained"
-                style={{ fontSize: '70px', padding: '10px 20px', fontFamily: 'Indie Flower, cursive', borderRadius: '10px' }}
+        <ThemeProvider theme={theme} margin='0'>
+            <Grid
+                container
+                margin={2}
+                minHeight='100vh'
+                sx={{
+                    alignItems: 'center',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    overflow: 'hidden',
+                }}
             >
-                <Link to='/game' style={{ color: 'yellow', textDecoration: 'None' }}>
-                    Start
-                </Link>
-            </Button>
+                <Typography variant="h1"> PetrGuessr </Typography>
+                <img src={logo} alt="petr" style={{ height: '50%' }} />
+                <br />
+                <Button
+                    variant="contained"
+                    style={{ fontSize: '70px', padding: '10px 20px', fontFamily: 'Indie Flower, cursive', borderRadius: '10px' }}
+                >
+                    <Link to='/game' style={{ color: 'yellow', textDecoration: 'None' }}>
+                        Start
+                    </Link>
+                </Button>
+            </Grid>
         </ThemeProvider >
     );
 };

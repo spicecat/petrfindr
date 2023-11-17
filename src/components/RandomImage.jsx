@@ -1,25 +1,31 @@
-import { useState } from 'react';
-import { Button, Paper } from '@mui/material';
+import { useState, useEffect } from 'react';
+import { Button, Grid, Paper } from '@mui/material';
 
 
 const RandomImage = () => {
     const [image, setImage] = useState('');
 
-    const handleButtonClick = () => {
+
+    const pickImage = () => {
         const images = require.context('../assets/locations', true, /\.jpe?g$/);
         const randomImage = images.keys()[Math.floor(Math.random() * images.keys().length)];
         setImage(images(randomImage));
-        console.log(images(randomImage))
     };
 
+    useEffect(pickImage, []);
+
     return (
-        <Paper elevation={3}>
-            <Button onClick={handleButtonClick}>
-                Display Random Image
-            </Button>
-            <br />
-            {image && <img src={image} alt="Random" style={{ height: '400px' }} />}
-        </Paper>
+        <Grid
+            item
+            xs={12}
+            style={{
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+                backgroundImage: `url(${image})`,
+                height: '100%'
+            }}
+        />
     );
 };
 

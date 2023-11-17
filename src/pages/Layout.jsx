@@ -1,24 +1,20 @@
-import { Box } from '@mui/material';
+import { Grid } from '@mui/material';
 import { Helmet } from 'react-helmet';
 import { Outlet } from 'react-router-dom';
 
 
 
 export default function Layout() {
-    
+
     return (
         <>
             <Helmet>
                 <title>PetrGuessr</title>
             </Helmet>
             <main>
-                <Box sx={{
-                    alignItems: 'center',
-                    display: 'flex',
-                    flexDirection: 'column'
-                }}>
+                <Grid container margin={2} height='400px'>
                     <Outlet />
-                </Box>
+                </Grid>
             </main>
         </>
     );
