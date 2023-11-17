@@ -1,5 +1,5 @@
 import Minimap from './Minimap';
-import RandomImage from './RandomImage';
+import Location from './Location';
 import Results from './Results';
 
-export { Minimap, RandomImage, Results };
+export { Minimap, Location, Results };

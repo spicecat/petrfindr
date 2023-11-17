@@ -1,12 +1,12 @@
 import { useRef, useEffect, useState } from 'react';
 import { Button } from "@mui/material";
-import maplibregl from 'maplibre-gl';
+import { Map, NavigationControl } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
 import './map.css';
 import api from '../config/api';
 
-export default function Map({ marker }) {
+const Minimap = ({ marker }) => {
     const mapContainer = useRef(null);
     const map = useRef(null);
     const [lng] = useState(-117.8436495);
@@ -17,7 +17,7 @@ export default function Map({ marker }) {
     useEffect(() => {
         if (map.current) return; // stops map from intializing more than once
 
-        map.current = new maplibregl.Map({
+        map.current = new Map({
             container: mapContainer.current,
             style: `https://api.maptiler.com/maps/streets-v2/style.json?key=${API_KEY}`,
             center: [lng, lat],
@@ -25,7 +25,7 @@ export default function Map({ marker }) {
             scaleControl: true,
             zoom: zoom
         });
-        map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
+        map.current.addControl(new NavigationControl(), 'top-right');
 
         // const el = document.createElement('div');
         // el.className = 'marker';
@@ -53,3 +53,5 @@ export default function Map({ marker }) {
         </div>
     );
 }
+
+export default Minimap;

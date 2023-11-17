@@ -1,48 +1,58 @@
 {
     "aldrich-park": {
-        "coords": [
-            33.643561844535,
-            -117.82796158581051
-        ],
-        "name": "Aldrich Park"
+        "coords": {
+            "lat": 33.64600470995814,
+            "lng": -117.84274202606206
+        },
+        "name": "Aldrich Park",
+        "src": "aldrich-park.jpeg"
     },
     "anteater-recreation-center": {
-        "coords": [],
-        "name": "Anteater Recreation Center"
+        "coords": {
+            "lat": 33.643561844535,
+            "lng": -117.82796158581051
+        },
+        "name": "Anteater Recreation Center",
+        "src": "anteater-recreation-center.jpeg"
     },
     "donald-bren-hall": {
-        "coords": [
-            33.64322826940976,
-            -117.84192000232811
-        ],
-        "name": "Anteater Recreation Center"
+        "coords": {
+            "lat": 33.64322826940976,
+            "lng": -117.84192000232811
+        },
+        "name": "Donald Bren Hall",
+        "src": "donald-bren-hall.jpeg"
     },
     "founders-court": {
-        "coords": [
-            33.64711169553486,
-            -117.84459258116387
-        ],
-        "name": "Anteater Recreation Center"
+        "coords": {
+            "lat": 33.64711169553486,
+            "lng": -117.84459258116387
+        },
+        "name": "Founders Court",
+        "src": "founders-court.jpeg"
     },
     "jao-family-sculpture-garden": {
-        "coords": [
-            33.64785243710442,
-            -117.84294187534339
-        ],
-        "name": "Anteater Recreation Center"
+        "coords": {
+            "lat": 33.64785243710442,
+            "lng": -117.84294187534339
+        },
+        "name": "Jao Family Sculpture Garden",
+        "src": "jao-family-sculpture-garden.jpeg"
     },
     "middle-earth-towers": {
-        "coords": [
-            33.64563289475947,
-            -117.83902968104468
-        ],
-        "name": "Anteater Recreation Center"
+        "coords": {
+            "lat": 33.64563289475947,
+            "lng": -117.83902968104468
+        },
+        "name": "Middle Earth Towers",
+        "src": "middle-earth-towers.jpeg"
     },
     "science-library": {
-        "coords": [
-            33.6459604178158,
-            -117.84651978531653
-        ],
-        "name": "Anteater Recreation Center"
+        "coords": {
+            "lat": 33.6459604178158,
+            "lng": -117.84651978531653
+        },
+        "name": "Science Library",
+        "src": "science-library.jpeg"
     }
 }

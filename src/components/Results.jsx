@@ -1,18 +1,28 @@
-import { Button, Link, Grid, Typography } from "@mui/material";
+import { useState } from 'react';
+import { Button, Grid, Typography } from "@mui/material";
+import { LngLat } from 'maplibre-gl';
 
-const Results = ({}) => {
+const Results = ({ location: { coords, name }, marker }) => {
+    const [dist, setDist] = useState();
+
+    const calcDist = () => {
+        const locationLngLat = new LngLat(coords.lng, coords.lat);
+        setDist(locationLngLat.distanceTo(marker.getLngLat()));
+    }
+
     return (
         <Grid item xs={12}>
             <Button
+                onClick={calcDist}
                 variant="contained"
                 style={{ fontSize: '70px', padding: '10px 20px', fontFamily: 'Indie Flower, cursive', borderRadius: '10px' }}
             >
-                <Link to='/game' style={{ color: 'yellow', textDecoration: 'None' }}>
-                    Guess
-                </Link>
+                Guess
             </Button>
             <br />
             <Typography variant='h2'>Results</Typography>
+            {dist && <Typography >{Math.floor(dist)} Petrs away</Typography>}
+            {name}
         </Grid>
     );
 };
