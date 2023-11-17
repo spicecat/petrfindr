@@ -1,14 +1,22 @@
 {
   "files": {
-    "main.css": "/webjam/static/css/main.7e18f376.css",
-    "main.js": "/webjam/static/js/main.38568497.js",
-    "static/media/original.svg": "/webjam/static/media/original.dd3c3286e6d14f72653800dbdf5340a0.svg",
+    "main.css": "/webjam/static/css/main.30ea37a9.css",
+    "main.js": "/webjam/static/js/main.fd0df5d2.js",
+    "static/media/jao-family-sculpture-garden.jpeg": "/webjam/static/media/jao-family-sculpture-garden.05c73528b66fbf36742e.jpeg",
+    "static/media/aldrich-park.jpeg": "/webjam/static/media/aldrich-park.ace980cc2627c77e2191.jpeg",
+    "static/media/founders-court.jpeg": "/webjam/static/media/founders-court.e1ac5080f72955f250a5.jpeg",
+    "static/media/donald-bren-hall.jpeg": "/webjam/static/media/donald-bren-hall.134c421cdbd6a2921bd3.jpeg",
+    "static/media/anteater-recreation-center.jpeg": "/webjam/static/media/anteater-recreation-center.a372d888d55d22b2afc4.jpeg",
+    "static/media/middle-earth-towers.jpeg": "/webjam/static/media/middle-earth-towers.c79b456c1de5676ae4bb.jpeg",
+    "static/media/science-library.jpeg": "/webjam/static/media/science-library.d9c1310086609cb9a9c7.jpeg",
+    "static/media/logo.png": "/webjam/static/media/logo.034e0dfbf828e27237db.png",
+    "static/media/student-center.jpeg": "/webjam/static/media/student-center.50a8476ad9196038ab8a.jpeg",
     "index.html": "/webjam/index.html",
-    "main.7e18f376.css.map": "/webjam/static/css/main.7e18f376.css.map",
-    "main.38568497.js.map": "/webjam/static/js/main.38568497.js.map"
+    "main.30ea37a9.css.map": "/webjam/static/css/main.30ea37a9.css.map",
+    "main.fd0df5d2.js.map": "/webjam/static/js/main.fd0df5d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e18f376.css",
-    "static/js/main.38568497.js"
+    "static/css/main.30ea37a9.css",
+    "static/js/main.fd0df5d2.js"
   ]
 }
