@@ -1,4 +1,4 @@
-{   
+{
     "aldrich-park": {
         "coords": {
             "lat": 33.64545045673266,
@@ -25,8 +25,8 @@
     },
     "founders-court": {
         "coords": {
-            "lat": 33.64711169553486,
-            "lng": -117.84459258116387
+            "lat": 33.64683690973797,
+            "lng": -117.84452150193388
         },
         "name": "Founders Court",
         "src": "founders-court.jpeg"

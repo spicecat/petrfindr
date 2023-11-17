@@ -46,7 +46,7 @@ export default function GameProvider({ children }) {
     };
 
     const createRandomLocation = () => {
-        console.log(remainingLocations)
+        toHome();
 
         const remainingLocationsCopy = remainingLocations.length === 0 ? Object.keys(locations) : remainingLocations;
 
@@ -54,10 +54,6 @@ export default function GameProvider({ children }) {
         const randLocation = locations[randLocationKey];
 
         setRemainingLocations(remainingLocationsCopy.filter(loc => loc !== randLocationKey));
-        // if (remainingLocations.length === 1) {
-        //     resetLocations();
-        //     return;
-        // }
 
         locationMarker.setLngLat([randLocation.coords.lng, randLocation.coords.lat]);
         locationMarker.remove();
