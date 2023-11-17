@@ -1,9 +1,10 @@
-import RandomImage from '../components/RandomImage';
+import { RandomImage, Minimap } from '../components';
 
 const Game = () => {
   return (
     <div>
       <RandomImage />
+      <Minimap />
     </div>
   );
 };
