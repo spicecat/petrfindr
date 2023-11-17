@@ -34,16 +34,25 @@ const Results = () => {
         setTotalScore(0);
     }
 
-    
+
 
     return (
-        <Grid container spacing={2} style={{ padding: '10px' }}>
-            <Grid item xs={12}>
-                <Typography variant="h4" style={{ fontFamily: '"Press Start 2P"', color: '#FFC436', fontSize: '45px' }}>
+        <Grid
+            container
+            spacing={2}
+            style={{ padding: '10px' }}
+        >
+            <Grid item xs={12}
+                sx={{
+                    alignItems: 'center',
+                    display: 'flex',
+                    flexDirection: 'column',
+                }}>
+                <Typography align="center" variant="h4" style={{ fontFamily: '"Press Start 2P"', color: '#FFC436', fontSize: '45px' }}>
                     Score: {Math.floor(totalScore)} {score !== null && `(+${score})`}
                 </Typography>
-            </Grid>
-            <Grid item xs={12}>
+                <br />
+                <br />
                 {!dist && (
                     <Button
                         color="success"
@@ -80,13 +89,14 @@ const Results = () => {
                             }
                         </div>
                         <br />
-                        <Typography variant="h4" style={{ color: 'white', fontFamily: '"Press Start 2P"' }}>{name}</Typography>
                         <br />
-                        <Typography variant="h5" style={{ color: 'white', fontFamily: '"Press Start 2P"' }}>{Math.floor(dist)} Petrs away</Typography>
+                        <Typography align="center" variant="h4" style={{ color: 'white', fontFamily: '"Press Start 2P"' }}>{name}</Typography>
+                        <br />
+                        <Typography align="center" variant="h5" style={{ color: 'white', fontFamily: '"Press Start 2P"' }}>{Math.floor(dist)} Petrs away</Typography>
                     </>
                 )}
             </Grid>
-        </Grid>
+        </Grid >
     );
 };
 

@@ -14,9 +14,9 @@ const Minimap = () => {
     }, []);
 
     return (
-        <div className="map-wrap">
+        <div className="map-wrap" >
             <div ref={mapContainer} className="map" />
-            <Button onClick={toHome}>
+            <Button variant="contained" onClick={toHome}>
                 🏠Home
             </Button>
         </div>

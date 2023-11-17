@@ -13,11 +13,14 @@ const Game = () => {
 
   return (
     <>
-      <Grid item xs={6} style={{}}>
+      <Grid item xs={6} style={{ height: "100%", padding: '40px' }}>
         {location && <Location />}
+        <br/>
+        <br/>
+        <br/>
         {location && marker && <Results />}
       </Grid>
-      <Grid item xs={6} style={{ height: "100%" }}>
+      <Grid item xs={6} style={{ height: '100vh', border: '8px solid #FFC436', borderRadius: '10px' }}>
         <Minimap />
       </Grid>
     </>
