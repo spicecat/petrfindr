@@ -7,7 +7,7 @@ import { Game, Home, Layout } from './pages';
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/webjam'>
         <ContextProvider>
           <Routes>
             <Route path="/" element={<Layout />}>

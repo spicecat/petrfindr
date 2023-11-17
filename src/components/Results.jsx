@@ -13,7 +13,6 @@ const Results = () => {
         const locationLngLat = new LngLat(coords.lng, coords.lat);
         const distance = locationLngLat.distanceTo(marker.getLngLat());
         
-        const maxDistance = 100;
         const perfectScoreThreshold = 10;
         const goodScoreThreshold = 30;
 
