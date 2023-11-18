@@ -48,6 +48,10 @@ const Results = () => {
                     display: 'flex',
                     flexDirection: 'column',
                 }}>
+                <Typography align="center" style={{ fontFamily: '"Press Start 2P"', color: 'white' }}>
+                    Drag the marker to Petr's location
+                </Typography>
+                <br />
                 <Typography align="center" variant="h4" style={{ fontFamily: '"Press Start 2P"', color: '#FFC436' }}>
                     Score: {Math.floor(totalScore)} {score !== null && `(+${score})`}
                 </Typography>
