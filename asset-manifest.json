@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webjam/static/css/main.a8e328ff.css",
-    "main.js": "/webjam/static/js/main.6461fd56.js",
+    "main.js": "/webjam/static/js/main.b3b2e786.js",
     "static/media/jao-family-sculpture-garden.jpeg": "/webjam/static/media/jao-family-sculpture-garden.05c73528b66fbf36742e.jpeg",
     "static/media/aldrich-park.jpeg": "/webjam/static/media/aldrich-park.ace980cc2627c77e2191.jpeg",
     "static/media/founders-court.jpeg": "/webjam/static/media/founders-court.e1ac5080f72955f250a5.jpeg",
@@ -10,13 +10,13 @@
     "static/media/middle-earth-towers.jpeg": "/webjam/static/media/middle-earth-towers.c79b456c1de5676ae4bb.jpeg",
     "static/media/science-library.jpeg": "/webjam/static/media/science-library.d9c1310086609cb9a9c7.jpeg",
     "static/media/logo.png": "/webjam/static/media/logo.034e0dfbf828e27237db.png",
-    "static/media/student-center.jpeg": "/webjam/static/media/student-center.50a8476ad9196038ab8a.jpeg",
+    "static/media/student-center.jpeg": "/webjam/static/media/student-center.f4838df5ae83ab495375.jpeg",
     "index.html": "/webjam/index.html",
     "main.a8e328ff.css.map": "/webjam/static/css/main.a8e328ff.css.map",
-    "main.6461fd56.js.map": "/webjam/static/js/main.6461fd56.js.map"
+    "main.b3b2e786.js.map": "/webjam/static/js/main.b3b2e786.js.map"
   },
   "entrypoints": [
     "static/css/main.a8e328ff.css",
-    "static/js/main.6461fd56.js"
+    "static/js/main.b3b2e786.js"
   ]
 }
