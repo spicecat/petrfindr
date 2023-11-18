@@ -1,5 +1,6 @@
 import { Grid } from '@mui/material';
 
+import logo from '../assets/logo.png';
 import { useGame } from '../contexts'
 
 const Location = () => {
@@ -19,7 +20,7 @@ const Location = () => {
                 borderRadius: '10px'
             }}
         >
-            <img  alt={`Petr at ${name}`} title={name} height='0px' src="http://www.bombadillokittens.com/sites/default/files/2018-10/IMG_4975%20(1).JPG"/>
+            <img alt={`Petr at ${name}`} title={name} height='1px' src={logo} />
         </Grid>
     );
 };
