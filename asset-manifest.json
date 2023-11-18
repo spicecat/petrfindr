@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webjam/static/css/main.a8e328ff.css",
-    "main.js": "/webjam/static/js/main.568def6c.js",
+    "main.js": "/webjam/static/js/main.c6ad8850.js",
     "static/media/middle-earth-towers.jpeg": "/webjam/static/media/middle-earth-towers.3d03d69ad2c1806902ca.jpeg",
     "static/media/logo.png": "/webjam/static/media/logo.034e0dfbf828e27237db.png",
     "static/media/aldrich-park.jpeg": "/webjam/static/media/aldrich-park.86f6a07b2abc459dbbc6.jpeg",
@@ -13,10 +13,10 @@
     "static/media/anteater-recreation-center.jpeg": "/webjam/static/media/anteater-recreation-center.3b07ce245828e2eac418.jpeg",
     "index.html": "/webjam/index.html",
     "main.a8e328ff.css.map": "/webjam/static/css/main.a8e328ff.css.map",
-    "main.568def6c.js.map": "/webjam/static/js/main.568def6c.js.map"
+    "main.c6ad8850.js.map": "/webjam/static/js/main.c6ad8850.js.map"
   },
   "entrypoints": [
     "static/css/main.a8e328ff.css",
-    "static/js/main.568def6c.js"
+    "static/js/main.c6ad8850.js"
   ]
 }
