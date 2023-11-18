@@ -64,6 +64,9 @@ export default function GameProvider({ children }) {
 
     const showLocationMarker = () => {
         locationMarker.addTo(map.current);
+        map.current.flyTo({
+            center: [location.coords.lng, location.coords.lat],
+        });
     }
 
     useEffect(() => {
