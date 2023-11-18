@@ -48,10 +48,9 @@ const Results = () => {
                     display: 'flex',
                     flexDirection: 'column',
                 }}>
-                <Typography align="center" variant="h4" style={{ fontFamily: '"Press Start 2P"', color: '#FFC436', fontSize: '45px' }}>
+                <Typography align="center" variant="h4" style={{ fontFamily: '"Press Start 2P"', color: '#FFC436' }}>
                     Score: {Math.floor(totalScore)} {score !== null && `(+${score})`}
                 </Typography>
-                <br />
                 <br />
                 {!dist && (
                     <Button
@@ -90,9 +89,9 @@ const Results = () => {
                         </div>
                         <br />
                         <br />
-                        <Typography align="center" variant="h4" style={{ color: 'white', fontFamily: '"Press Start 2P"' }}>{name}</Typography>
+                        <Typography align="center" variant="h5" style={{ color: 'white', fontFamily: '"Press Start 2P"' }}>{name}</Typography>
                         <br />
-                        <Typography align="center" variant="h5" style={{ color: 'white', fontFamily: '"Press Start 2P"' }}>{Math.floor(dist)} Petrs away</Typography>
+                        <Typography align="center" variant="h6" style={{ color: 'white', fontFamily: '"Press Start 2P"' }}>{Math.floor(dist)} Petrs away</Typography>
                     </>
                 )}
             </Grid>

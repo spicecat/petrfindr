@@ -6,7 +6,7 @@ import { Game, Home, Layout } from './pages';
 
 const App = () => {
   return (
-    <div style={{ backgroundColor: '#0174BE', height: '100vh'}}>
+    <div style={{ backgroundColor: '#0C356A', height: '100vh'}}>
       <BrowserRouter basename='/webjam'>
         <ContextProvider>
           <Routes>
