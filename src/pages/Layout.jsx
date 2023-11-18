@@ -9,7 +9,7 @@ export default function Layout() {
     return (
         <>
             <Helmet>
-                <title>PetrGuessr</title>
+                <title>PetrFindr</title>
             </Helmet>
             <main>
                 <Grid container margin={0} height='400px'>

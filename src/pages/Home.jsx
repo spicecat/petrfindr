@@ -41,7 +41,7 @@ const Home = () => {
                         padding: '10px 50px', // Adjust padding as needed
                         backgroundColor: '#0174BE',
                       }}
-                    > PetrGuessr </Typography>
+                    > PetrFindr </Typography>
                 <img src={logo} alt="petr" style={{ height: '60vh' }} />
                 <br />
                 <Button
