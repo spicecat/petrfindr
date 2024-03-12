@@ -1,7 +1,7 @@
 # PetrFindr
 
-Repo: [https://github.com/spicecat/webjam/](https://github.com/spicecat/webjam/)  
-Demo: [https://spicecat.github.io/webjam/](https://spicecat.github.io/webjam/)
+Repo: [https://github.com/spicecat/petrfindr/](https://github.com/spicecat/petrfindr/)  
+Demo: [https://spicecat.github.io/petrfindr/](https://spicecat.github.io/petrfindr/)
 
 ## About
 
@@ -19,4 +19,4 @@ PetrFinr is a browser-based game where players guess the location of Petr given 
 
 ## Run Locally
 
-Clone the repo (`git clone https://github.com/spicecat/webjam.git`) and install the dependencies (`cd webjam && npm install`). Get a free MapTiler API key from [https://docs.maptiler.com/cloud/api/authentication-key/](https://docs.maptiler.com/cloud/api/authentication-key/). Add your MapTiler API key to `.env.example` and rename the file to `.env`.  Run the project with `npm start` and play the game in your browser at `localhost:3000/webjam`.
+Clone the repo (`git clone https://github.com/spicecat/petrfindr.git`) and install the dependencies (`cd petrfindr && npm install`). Get a free MapTiler API key from [https://docs.maptiler.com/cloud/api/authentication-key/](https://docs.maptiler.com/cloud/api/authentication-key/). Add your MapTiler API key to `.env.example` and rename the file to `.env`.  Run the project with `npm start` and play the game in your browser at `localhost:3000/petrfindr`.
