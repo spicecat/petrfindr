@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/webjam/static/css/main.a8e328ff.css",
-    "main.js": "/webjam/static/js/main.c6ad8850.js",
-    "static/media/middle-earth-towers.jpeg": "/webjam/static/media/middle-earth-towers.3d03d69ad2c1806902ca.jpeg",
-    "static/media/logo.png": "/webjam/static/media/logo.034e0dfbf828e27237db.png",
-    "static/media/aldrich-park.jpeg": "/webjam/static/media/aldrich-park.86f6a07b2abc459dbbc6.jpeg",
-    "static/media/jao-family-sculpture-garden.jpeg": "/webjam/static/media/jao-family-sculpture-garden.7ff7ba94c76a5b427a84.jpeg",
-    "static/media/founders-court.jpeg": "/webjam/static/media/founders-court.59428969e402c1c92736.jpeg",
-    "static/media/donald-bren-hall.jpeg": "/webjam/static/media/donald-bren-hall.2a37633d72e26a62c78e.jpeg",
-    "static/media/student-center.jpeg": "/webjam/static/media/student-center.f4838df5ae83ab495375.jpeg",
-    "static/media/science-library.jpeg": "/webjam/static/media/science-library.9ace17822a5b0cec3a94.jpeg",
-    "static/media/anteater-recreation-center.jpeg": "/webjam/static/media/anteater-recreation-center.3b07ce245828e2eac418.jpeg",
-    "index.html": "/webjam/index.html",
-    "main.a8e328ff.css.map": "/webjam/static/css/main.a8e328ff.css.map",
-    "main.c6ad8850.js.map": "/webjam/static/js/main.c6ad8850.js.map"
+    "main.css": "/petrfindr/static/css/main.a8e328ff.css",
+    "main.js": "/petrfindr/static/js/main.76c42a7d.js",
+    "static/media/middle-earth-towers.jpeg": "/petrfindr/static/media/middle-earth-towers.3d03d69ad2c1806902ca.jpeg",
+    "static/media/logo.png": "/petrfindr/static/media/logo.034e0dfbf828e27237db.png",
+    "static/media/aldrich-park.jpeg": "/petrfindr/static/media/aldrich-park.86f6a07b2abc459dbbc6.jpeg",
+    "static/media/jao-family-sculpture-garden.jpeg": "/petrfindr/static/media/jao-family-sculpture-garden.7ff7ba94c76a5b427a84.jpeg",
+    "static/media/founders-court.jpeg": "/petrfindr/static/media/founders-court.59428969e402c1c92736.jpeg",
+    "static/media/donald-bren-hall.jpeg": "/petrfindr/static/media/donald-bren-hall.2a37633d72e26a62c78e.jpeg",
+    "static/media/student-center.jpeg": "/petrfindr/static/media/student-center.f4838df5ae83ab495375.jpeg",
+    "static/media/science-library.jpeg": "/petrfindr/static/media/science-library.9ace17822a5b0cec3a94.jpeg",
+    "static/media/anteater-recreation-center.jpeg": "/petrfindr/static/media/anteater-recreation-center.3b07ce245828e2eac418.jpeg",
+    "index.html": "/petrfindr/index.html",
+    "main.a8e328ff.css.map": "/petrfindr/static/css/main.a8e328ff.css.map",
+    "main.76c42a7d.js.map": "/petrfindr/static/js/main.76c42a7d.js.map"
   },
   "entrypoints": [
     "static/css/main.a8e328ff.css",
-    "static/js/main.c6ad8850.js"
+    "static/js/main.76c42a7d.js"
   ]
 }
